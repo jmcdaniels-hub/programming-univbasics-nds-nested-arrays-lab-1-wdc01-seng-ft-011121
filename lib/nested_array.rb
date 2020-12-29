@@ -34,8 +34,8 @@ def sorted_matrix
   # However, this time, sort each internal array alphabetically by the first character
 end
 
-def matrix_lookup(matrix= assembled_matrix, row= 1, column= 1)
- assembled_matrix[1][1]
+def matrix_lookup(matrix= sorted_matrix, row= 1, column= 1)
+  sorted_matrix[1][1]
   
   # Given any matrix (array of arrays), a row index and a column index, 
   # Return the matrix's content at that row and and column
