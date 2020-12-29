@@ -42,7 +42,8 @@ def matrix_lookup(matrix= assembled_matrix, row= 1, column= 1)
 end
 
 def matrix_update(matrix = result, row = 0, column = 2, new_value = "Onions")
-    matrix = assembled_matrix[row][column] = new_value
+    assembled_matrix[row][column] = new_value
+    
   
   
   
