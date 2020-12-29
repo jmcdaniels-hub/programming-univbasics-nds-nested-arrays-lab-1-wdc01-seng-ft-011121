@@ -45,8 +45,7 @@ def matrix_update(matrix = local_copy_of_matrix,row = 0 , column = 2, new_value 
   
    matrix[row][column] = new_value
    
-   result[0]
-   
+   matrix[0]
     
   
   
